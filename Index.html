@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digit Recognizer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/99919bcb60.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+  <link href="styles_digit_recognizer.css" rel="stylesheet">
+  <script type="text/javascript" scr = "Main.js" lang="js">
+
+  </script>
+</head>
+
+<body>
+
+  <h1 class = "project_header">Digit Recognizer WebApp</h1>
+
+  <section id="Project_Body">
+
+        <div class="Page_Header">
+          <p class = "About">This project was done, as a learning exercise. It was used a way to further understand Tensorflow.js.
+          I hope you have fun, playing around with the interactive web application.
+        You can find links below, for the data and the project files</p>
+        </div>
+
+          <h1 class = "Predictions_Header">Make Some Predictions!</h1>
+          <div id="paint">
+            <canvas id="myCanvas"></canvas>
+          </div>
+          <div id="predicted">
+            <h2>Recognized digit</h2>
+            <div id="number"></div>
+            <button id="clear">Clear</button>
+          </div>
+
+  </section>
+
+  <section id="Project_Links">
+    <div class="container project_links">
+      <div class="row">
+        <div class="col-3 link_icons">
+          <a href="https://github.com/mbasacokile7" target="_blank"><i class="fas fa-file-code fa-3x icons"></i></i></a>
+        </div>
+        <div class="col-3 link_icons">
+          <a href="https://github.com/mbasacokile7" target="_blank"><i class="fab fa-github fa-3x icons"></i></a>
+        </div>
+        <div class="col-3 link_icons">
+          <a href="https://www.kaggle.com/c/digit-recognizer/data" target="_blank"><i class="fas fa-database fa-3x icons"></i></a>
+        </div>
+        <div class="col-3 link_icons linkedin_icon">
+          <a href="https://www.linkedin.com/in/mbasa-cokile-a50756157/" target="_blank"><i class="fab fa-linkedin-in fa-3x icons"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<script src="JS/Main.js"></script>
+
+</body>
+
+</html>
